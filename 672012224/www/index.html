@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main">
+		<div data-role="header" data-position="fixed">
+			<a href="" data-icon="home">Home</a>
+			<h1>Info Wisata</h1>
+			<a href="#secondPage" data-icon="info">About</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<a href="#Bali" data-icon="info">
+				<li style="padding:2pt">
+						<img src="img/01.jpg" width="300" height="300"/>
+
+						<h4>Pulau Bali</h4>
+						<p>Informasi Tentang Pariwisata Pulau Bali</p>
+						<span class="ui-li-count">15</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#Boro" data-icon="info">
+						<img src="img/02.jpg" width="300" height="300"/>
+						<h4>Candi Borobudur</h4>
+						<p>Informasi Tentang Candi Borobudur</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#monas" data-icon="info">
+						<img src="img/03.jpg" width="300" height="300"/>
+						<h4>Tugu Monas</h4>
+						<p>Informasi Tentang Tugu Monas</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#losari" data-icon="info">
+						<img src="img/04.jpg" width="300" height="300"/>
+						<h4>Pantai Losari</h4>
+						<p>Informasi Tentang Pantai Losari</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#toba" data-icon="info">
+						<img src="img/05.jpg" width="300" height="300"/>
+						<h4>Danau Toba</h4>
+						<p>Informasi Tentang Danau Toba</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<h4>FTI &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="secondPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<p>
+				Selamat datang di web ini. Selamat menjelajahi pariwisata di Indonesia :)
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="Bali" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Pulau Bali</h1>
+		</div>
+		<div data-role="content" style="text-align:center;">
+			<img src="img/bali.jpg" />
+
+			<p>
+				Bali adalah nama salah satu provinsi di Indonesia dan juga merupakan nama pulau terbesar yang menjadi bagian dari provinsi tersebut. Selain terdiri dari Pulau Bali, wilayah Provinsi Bali juga terdiri dari pulau-pulau yang lebih kecil di sekitarnya, yaitu Pulau Nusa Penida, Pulau Nusa Lembongan, Pulau Nusa Ceningan dan Pulau Serangan.
+
+				Bali terletak di antara Pulau Jawa dan Pulau Lombok. Ibukota provinsinya ialah Denpasar yang terletak di bagian selatan pulau ini. Mayoritas penduduk Bali adalah pemeluk agama Hindu. Di dunia, Bali terkenal sebagai tujuan pariwisata dengan keunikan berbagai hasil seni-budayanya, khususnya bagi para wisatawan Jepang dan Australia. Bali juga dikenal dengan sebutan Pulau Dewata dan Pulau Seribu Pura.
+			</p>			
+		</div>
+	</div>
+	<div data-role="page" id="Boro" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Candi Borobudur</h1>
+		</div>
+		<div data-role="content" style="text-align:center;">
+			<img src="img/boro.jpg" />
+
+			<p>
+				Borobudur adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Lokasi candi adalah kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi berbentuk stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia.
+
+Monumen ini terdiri atas enam teras berbentuk bujur sangkar yang diatasnya terdapat tiga pelataran melingkar, pada dindingnya dihiasi dengan 2.672 panel relief dan aslinya terdapat 504 arca Buddha. Borobudur memiliki koleksi relief Buddha terlengkap dan terbanyak di dunia.Stupa utama terbesar teletak di tengah sekaligus memahkotai bangunan ini, dikelilingi oleh tiga barisan melingkar 72 stupa berlubang yang di dalamnya terdapat arca buddha tengah duduk bersila dalam posisi teratai sempurna dengan mudra (sikap tangan) Dharmachakra mudra (memutar roda dharma).
+
+Monumen ini merupakan model alam semesta dan dibangun sebagai tempat suci untuk memuliakan Buddha sekaligus berfungsi sebagai tempat ziarah untuk menuntun umat manusia beralih dari alam nafsu duniawi menuju pencerahan dan kebijaksanaan sesuai ajaran Buddha.Para peziarah masuk melalui sisi timur memulai ritual di dasar candi dengan berjalan melingkari bangunan suci ini searah jarum jam, sambil terus naik ke undakan berikutnya melalui tiga tingkatan ranah dalam kosmologi Buddha. Ketiga tingkatan itu adalah Kāmadhātu (ranah hawa nafsu), Rupadhatu (ranah berwujud), dan Arupadhatu (ranah tak berwujud). Dalam perjalanannya ini peziarah berjalan melalui serangkaian lorong dan tangga dengan menyaksikan tak kurang dari 1.460 panel relief indah yang terukir pada dinding dan pagar langkan.
+
+Menurut bukti-bukti sejarah, Borobudur ditinggalkan pada abad ke-14 seiring melemahnya pengaruh kerajaan Hindu dan Buddha di Jawa serta mulai masuknya pengaruh Islam. Dunia mulai menyadari keberadaan bangunan ini sejak ditemukan 1814 oleh Sir Thomas Stamford Raffles, yang saat itu menjabat sebagai Gubernur Jenderal Inggris atas Jawa. Sejak saat itu Borobudur telah mengalami serangkaian upaya penyelamatan dan pemugaran. Proyek pemugaran terbesar digelar pada kurun 1975 hingga 1982 atas upaya Pemerintah Republik Indonesia dan UNESCO, kemudian situs bersejarah ini masuk dalam daftar Situs Warisan Dunia.
+
+Borobudur kini masih digunakan sebagai tempat ziarah keagamaan; tiap tahun umat Buddha yang datang dari seluruh Indonesia dan mancanegara berkumpul di Borobudur untuk memperingati Trisuci Waisak. Dalam dunia pariwisata, Borobudur adalah obyek wisata tunggal di Indonesia yang paling banyak dikunjungi wisatawan.
+			</p>			
+		</div>
+	</div>
+
+	<div data-role="page" id="monas" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Tugu Monas</h1>
+		</div>
+		<div data-role="content" style="text-align:center;">
+			<img src="img/monas.jpg" width="300" height="300"/>
+
+			<p>
+				Monumen Nasional atau yang populer disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki) yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda. Pembangunan monumen ini dimulai pada tanggal 17 Agustus 1961 di bawah perintah presiden Sukarno, dan dibuka untuk umum pada tanggal 12 Juli 1975. Tugu ini dimahkotai lidah api yang dilapisi lembaran emas yang melambangkan semangat perjuangan yang menyala-nyala. Monumen Nasional terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat. Monumen dan museum ini dibuka setiap hari mulai pukul 08.00 - 15.00 WIB. Pada hari Senin pekan terakhir setiap bulannya ditutup untuk umum.
+			</p>			
+		</div>
+	</div>
+
+	<div data-role="page" id="losari" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Pantai Losari</h1>
+		</div>
+		<div data-role="content" style="text-align:center;">
+			<img src="img/losari.jpg" width="300" height="300"/>
+
+			<p>
+				Pantai Losari adalah sebuah pantai yang terletak di sebelah barat kota Makassar, provinsi Sulawesi Selatan, Indonesia. Pantai ini menjadi tempat bagi warga Makassar untuk menghabiskan waktu pada pagi, sore dan malam hari menikmati pemandangan matahari tenggelam yang sangat indah.
+				Dahulu, pantai ini dikenal dengan pusat makanan laut dan ikan bakar di malam hari (karena para penjual dan pedagang hanya beroperasi pada malam hari), serta disebut-sebut sebagai warung terpanjang di dunia (karena warung-warung tenda berjejer di sepanjang pantai yang panjangnya kurang lebih satu kilometer).[butuh rujukan]
+
+Salah satu penganan khas Makassar yang dijajak di warung-warung tenda itu adalah pisang epe (pisang mentah yang dibakar, kemudian dibuat pipih, dan dicampur dengan air gula merah. Paling enak dimakan saat masih hangat).
+
+Saat ini warung-warung tenda yang menjajakan makanan laut tersebut telah dipindahkan pada sebuah tempat di depan rumah jabatan Walikota Makassar yang juga masih berada di sekitar Pantai Losari.
+			</p>			
+		</div>
+	</div>
+
+	<div data-role="page" id="toba" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Danau Toba</h1>
+		</div>
+		<div data-role="content" style="text-align:center;">
+			<img src="img/toba.jpg" width="300" height="300"/>
+
+			<p>
+				Danau Toba adalah sebuah danau vulkanik dengan ukuran panjang 100 kilometer dan lebar 30 kilometer yang terletak di Provinsi Sumatera Utara, Indonesia. Danau ini merupakan danau terbesar di Indonesia dan Asia Tenggara. Di tengah danau ini terdapat sebuah pulau vulkanik bernama Pulau Samosir.
+
+Danau Toba sejak lama menjadi daerah tujuan wisata penting di Sumatera Utara selain Bukit Lawang, Berastagi dan Nias, menarik wisatawan domestik maupun mancanegara.
+			</p>			
+		</div>
+	</div>
+</body>
+</html>
